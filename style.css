@@ -1,0 +1,243 @@
+body {
+  background-color: rgb(19, 19, 19);
+}
+nav {
+  background-color: rgb(19, 19, 19) !important;
+}
+
+.jumbotron {
+  background-color: rgb(19, 19, 19) !important;
+
+}
+
+.card-img {
+  background-color: rgb(19, 19, 19) !important;
+  border-color:  rgb(19, 19, 19) !important;
+
+}
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(25%);
+    }
+    
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-25%);
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+  transform: translateX(0);
+}
+
+.nav-right-icons {
+  font-size: 20px;
+  transition: color 0.2s ease-out;
+  color: #d4d3d3;
+}
+
+#nav-kids {
+  font-size: 20px;
+}
+
+.nav-right-icons:hover {
+  transition: color 0.2s ease-in;
+  color: #FFFFFF;
+}
+
+footer {
+  background-color: rgb(19, 19, 19);
+}
+
+.btn-service {
+  background-color: rgb(19, 19, 19);
+  color: rgb(129, 129, 129);
+  border-color: rgb(129, 129, 129);
+  border-radius: 0;
+}
+
+.btn-service:hover {
+  border-color: white;
+  color: white;
+}
+
+.social-icons {
+  font-size: 25px;
+  padding-right: 15px;
+  transition: color 0.2s ease-out;
+  color: rgb(129, 129, 129);
+}
+
+.social-icons:hover {
+  transition: color 0.2s ease-in-out;
+  color: white;
+}
+
+.text-grey {
+  font-size: small;
+  transition: color 0.2s ease-out;
+  color: rgb(129, 129, 129);
+  text-decoration: none;
+}
+
+.text-grey:hover {
+  transition: color 0.2s ease-in-out;
+  color:white;
+}
+
+.jumbotext {
+  font-size: 40px !important;
+  font-weight: 500;
+  color: white;
+  text-align: start;
+  margin: 30px;
+}
+
+.btn-genres {
+  background-color: rgb(19, 19, 19);
+  color:white;
+  border-color: rgb(129, 129, 129);
+  border-radius: 0;
+  margin-right: 10px;
+  position: relative;
+  top: 8px;
+}
+
+.btn-genres:hover {
+  border-color: rgb(255, 255, 255);
+  color: white;
+}
+
+.btn-genres-offsets {
+  position: relative;
+  bottom: 10px;
+}
+
+.jumbolist {
+  background-color: rgb(19, 19, 19);
+}
+
+.jumboicons {
+  transition: color 0.2s ease-out;
+  color: rgb(129, 129, 129);
+  font-size: 25px;
+  margin: 30px;
+  padding: 4px;
+  position: relative;
+  bottom: 60px;
+  border: 1px solid;
+
+}
+
+.jumboicons:hover {
+  transition: color 0.2s ease-in-out;
+  color:white;
+}
+
+
+@media (max-width: 1024px) {
+    
+  .jumboicons {
+    right:2px;
+  } 
+}
+
+@media (max-width: 768px) {
+    
+  .jumboicons {
+    bottom: 20px;
+    right: 130px;
+  }
+}
+
+@media (max-width: 667px) {
+    
+  .jumboicons {
+    right: 10px;
+  }
+}
+
+@media (max-width: 653px) {
+    
+  .jumboicons {
+    right: 70px;
+  }
+}
+
+@media (max-width: 540px) {
+    
+  .jumboicons {
+    right: 270px;
+  }
+}
+
+@media (max-width: 375px) {
+    
+  .jumboicons {
+    right: 170px;
+  } 
+}
+
+@media (max-width: 430px) {
+    
+  .jumboicons {
+    right: 150px;
+  } 
+}
+
+@media (max-width: 414px) {
+    
+  .jumboicons {
+    right: 150px;
+  } 
+}
+
+
+@media (max-width: 412px) {
+    
+  .jumboicons {
+    top: 3px;
+  } 
+}
+
+@media (max-width: 280px) {
+    
+  .jumboicons {
+    right: 120px;
+    top: 3px;
+  } 
+}
+
+@media (max-height: 1024px) {
+    
+  .jumboicons {
+    right: 10px;
+    bottom: 70px;
+    
+  } 
+}
+
+
+.text-carousel {
+  font-size: 20px !important;
+}
